@@ -1,0 +1,6 @@
+#ignore pyc
+*.pyc
+/Post/*.pyc
+/Project/*.pyc
+/User/*.pyc
+/umotion/*.pyc
