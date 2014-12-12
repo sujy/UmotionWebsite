@@ -4,7 +4,7 @@ from User.models import User
 class RoadMap(models.Model):
     time = models.DateField(blank=True)
     content = models.TextField(max_length=300)
-# branch
+# branchd
 class Project(models.Model):
     title = models.TextField(max_length=51200)
     brief = models.TextField(max_length=51200)
