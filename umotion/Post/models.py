@@ -2,7 +2,7 @@ from django.db import models
 from User.models import User
 from Project.models import Project,RoadMap
 
-# Create your models here.
+# Create your models here.ddd
 class Post(models.Model):
     topic=models.CharField(max_length=300)
     leader=models.ForeignKey(User)
